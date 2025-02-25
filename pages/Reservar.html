@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <!-- links google fuente abril fatface + encode sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Encode+Sans:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img class="logo-header" src="../assets/logo header.png" alt="">
+        
+        <nav>
+            <ul>
+                <li class="nav-list">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-list">
+                    <a class="nav-link" href="./Degustaciones.html">Degustaciones</a>
+                </li>
+                <li class="nav-list">
+                    <a class="nav-link" href="./Reservar.html">Reservar</a>
+                </li>
+                <li class="nav-list">
+                    <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-list">
+                    <a class="nav-link" href="./Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="h1-paginas-sec">Reservar</h1>
+        <section>
+            <form action="">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="apellidos">Apellidos</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" name="telefono" required>
+                <label for="fecha">Fecha</label>
+                <input type="date" id="fecha" name="fecha" required>
+                <label for="personas">Numero de personas</label>
+                <input type="number" id="personas" name="personas" required>
+                <input class="button-reservar-reserv" type="submit" value="Reservar">
+            </form>                             
+    </main>
+
+    <footer>
+        <h4>Buenos Vinos</h4>
+        <img src="../assets/logo header.png" alt="">
+        <p>Todos los derechos reservados</p>
+    </footer>
+    
+</body>
+</html>

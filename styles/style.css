@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Google Fonts - Encode Sans*/
+/* font-family: "Encode Sans", serif; */
+
+/* google fonts - Abril Fatface */
+/* font-family: "Abril Fatface", serif; */
+
+/* body */
+body {
+    background-color: #fffbee;
+    font-family: "Encode Sans", serif;
+    color: #1A1A1A;
+}
+/* header */
+
+.nav-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+}
+.nav-header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.nav-list {
+    list-style: none;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #1A1A1A;
+}
+/* footer */
+footer {
+    background-color: #5c3743;
+    color: #fffbee;
+}
+/* main */
+
+.inicio-portada {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 140px;
+}
+.inicio-portada article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+    width: 540px;
+    height: 326px;
+}
+.h1-inicio {
+    font-family: "Abril Fatface", serif;
+    font-size: 88px;
+    text-decoration: underline;
+}
+.p-inicio {
+    font-size: 24px;
+}
+.inicio-degustaciones {
+    background-color: #5c3743;
+    color: #fffbee;
+    height: 1000px;
+}
+.h2-inicio {
+    font-family: "Abril Fatface", serif;
+    font-size: 48px;
+    color: #fffbee;
+    margin: 60px;
+}
+.inicio-cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.card-degustaciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 320px;
+    background-color: #fffbee;
+    padding: 20px;
+    border-radius: 8px;
+}
+.card-degustaciones img {
+    width: 100%;
+    border-radius: 4px;
+}
+.titulo-cards {
+    font-family: "Abril Fatface", serif;
+    font-size: 24px;
+    color: #1A1A1A;
+}
+.h1-paginas-sec {
+    font-family: "Abril Fatface", serif;
+    font-size: 64px;
+    text-decoration: underline;
+}
+.h2-card-degs {
+    font-family: "Abril Fatface", serif;
+    font-size: 36px;
+}
+.ubicacion-card-degs {
+    font-size: 20px;
+}
+.p-card-degs {
+    font-size: 24px;
+}
+.precio-degs {
+    font-size: 36px;
+}
+label {
+    font-size: 24px;
+}
+.button-reservar-reserv {
+    font-size: 24px;
+    color: #fffbee;
+    background-color: #5c3743;
+}
+.p-nosotros {
+    font-size: 24px;
+}
+.h2-nomb-puest {
+    font-family: "Abril Fatface", serif;
+    font-size: 26px;
+}
+
+
+
