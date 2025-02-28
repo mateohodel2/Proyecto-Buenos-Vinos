@@ -38,12 +38,18 @@ footer {
     background-color: #5c3734;
     color: #fffbee;
 }
+.alineacion-footer {
+    justify-content: space-between;
+    align-items: center;
+}
+.alineacion-footer-item {
+    align-items: center;
+    justify-content: center;
+}
 /* main */
 .portada {
-    margin-top: 7rem;
+    margin-top: 10rem;
     margin-bottom: 6rem;
-    /* align-items: center;
-    justify-content: center; */
 }
 .h1-inicio {
     font-family: "Abril Fatface", serif;
@@ -93,4 +99,55 @@ footer {
 }
 figure {
     margin: 0;
+}
+.h1-paginas-sec {
+    font-family: "Abril Fatface", serif;
+    font-size: 64px;
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .portada {
+        margin-top: 7rem;
+        margin-bottom: 4rem;
+    }
+    .h1-inicio {
+        font-size: 56px;
+    }
+    .p-inicio {
+        font-size: 20px;
+    }
+    .h2-degustaciones {
+        font-size: 36px;
+        padding-top: 0;
+    }
+    .card-block {
+        margin: 2rem;
+    }
+    .img-propio {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .portada {
+        margin-top: 7rem;
+        margin-bottom: 4rem;
+    }
+    .h1-inicio {
+        font-size: 64px;
+    }
+    .p-inicio {
+        font-size: 20px;
+    }
+    .h2-degustaciones {
+        font-size: 42px;
+        padding-top: 0;
+    }
+    .card-block {
+        margin: 2rem;
+    }
+    .img-propio {
+        width: 100%;
+    }
 }
