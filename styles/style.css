@@ -130,6 +130,16 @@ h3 {
     font-family: "Encode Sans", serif; 
     font-size: 24px;
 }
+.section-form-propio {
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.text-area-propio {
+    border: none;
+    background-color: #e1ddd0;
+}
 @media (max-width: 767px) {
     .portada {
         margin-top: 7rem;
