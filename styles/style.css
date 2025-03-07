@@ -105,7 +105,31 @@ figure {
     font-size: 64px;
     text-decoration: underline;
 }
-
+.card-degustaciones {
+    background-color: #e1ddd0;
+    border: none;
+    padding: 1rem;
+}
+.seccion-propio-degustaciones {
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+h2 {
+    font-family: "Abril Fatface", serif;
+}
+h3 {
+    font-family: "Abril Fatface", serif;
+}
+.imagen-propio {
+    max-height: 50%;
+}
+.parrafo-nosotros {
+    font-size: 24px;
+}
+.h3-cards-nosotros {
+    font-family: "Encode Sans", serif; 
+    font-size: 24px;
+}
 @media (max-width: 767px) {
     .portada {
         margin-top: 7rem;
